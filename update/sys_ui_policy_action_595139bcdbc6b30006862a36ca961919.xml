@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>work_notes</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-12 17:03:49</sys_created_on>
+        <sys_id>595139bcdbc6b30006862a36ca961919</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>work_notes</sys_name>
+        <sys_package display_value="siiet" source="x_366666_siiet">cd73c82cdb4a730006862a36ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="siiet">cd73c82cdb4a730006862a36ca96192d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_595139bcdbc6b30006862a36ca961919</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-12 17:08:00</sys_updated_on>
+        <table>x_366666_siiet_log_incident</table>
+        <ui_policy display_value="make short description mandatory">b045c0f8dbc2b30006862a36ca9619ae</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

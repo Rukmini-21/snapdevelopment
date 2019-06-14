@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="cse" max_length="40" name="x_366666_siiet_cse" sizeclass="3" type="collection">
+        <element label="email" max_length="50" name="email" type="string"/>
+        <element choice="3" label="name" mandatory="true" max_length="100" name="name" type="string">
+            <choice/>
+        </element>
+        <element label="phone" max_length="100" name="phone" type="string"/>
+        <element label="sname" max_length="50" name="sname" type="string"/>
+    </element>
+</database>

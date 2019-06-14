@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="task" label="log incident" max_length="40" name="x_366666_siiet_log_incident" sizeclass="1" type="collection">
+        <element choice="1" label="contact type2" max_length="100" name="contact_type2" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="email" sequence="0" value="email"/>
+                <element inactive_on_update="false" label="phone" sequence="1" value="phone"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="request date" max_length="500" name="request_date" type="glide_date_time"/>
+        <element default="100" label="request date1" max_length="40" name="request_date1" type="glide_date_time"/>
+        <element label="return date" max_length="100" name="return_date" type="glide_date_time"/>
+        <element default="100" label="return date1" max_length="40" name="return_date1" type="glide_date_time"/>
+    </element>
+</database>
